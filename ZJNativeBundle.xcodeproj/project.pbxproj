@@ -28,6 +28,7 @@
 		A26A85C91DEE7EEE00B258A9 /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A26A85B41DEE7EED00B258A9 /* success@3x.png */; };
 		A26A85CA1DEE7EEE00B258A9 /* turn_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A26A85B51DEE7EED00B258A9 /* turn_off.png */; };
 		A26A85CB1DEE7EEE00B258A9 /* turn_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A26A85B61DEE7EED00B258A9 /* turn_on.png */; };
+		A283DBF41DEFB05500EA9E02 /* __app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A283DBF21DEFB05500EA9E02 /* __app.xcdatamodeld */; };
 		A2944AEA1DED583300346571 /* ActivityCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = A2944ADE1DED583300346571 /* ActivityCell.nib */; };
 		A2944AEB1DED583300346571 /* ManagementCollectionCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = A2944ADF1DED583300346571 /* ManagementCollectionCell.nib */; };
 		A2944AEC1DED583300346571 /* PhotographCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = A2944AE01DED583300346571 /* PhotographCell.nib */; };
@@ -82,6 +83,7 @@
 		A26A85B41DEE7EED00B258A9 /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "success@3x.png"; path = "Source/success@3x.png"; sourceTree = "<group>"; };
 		A26A85B51DEE7EED00B258A9 /* turn_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turn_off.png; path = Source/turn_off.png; sourceTree = "<group>"; };
 		A26A85B61DEE7EED00B258A9 /* turn_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turn_on.png; path = Source/turn_on.png; sourceTree = "<group>"; };
+		A283DBF31DEFB05500EA9E02 /* __app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __app.xcdatamodel; sourceTree = "<group>"; };
 		A2944ADE1DED583300346571 /* ActivityCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ActivityCell.nib; sourceTree = "<group>"; };
 		A2944ADF1DED583300346571 /* ManagementCollectionCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ManagementCollectionCell.nib; sourceTree = "<group>"; };
 		A2944AE01DED583300346571 /* PhotographCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = PhotographCell.nib; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		A2E1F30C1DED4ED400CF6629 /* ZJNativeBundle */ = {
 			isa = PBXGroup;
 			children = (
+				A283DBF21DEFB05500EA9E02 /* __app.xcdatamodeld */,
 				A26A85A21DEE7EED00B258A9 /* angle-mask.png */,
 				A26A85A31DEE7EED00B258A9 /* angle-mask@2x.png */,
 				A26A85A41DEE7EED00B258A9 /* angle-mask@3x.png */,
@@ -321,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A283DBF41DEFB05500EA9E02 /* __app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +470,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A283DBF21DEFB05500EA9E02 /* __app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A283DBF31DEFB05500EA9E02 /* __app.xcdatamodel */,
+			);
+			currentVersion = A283DBF31DEFB05500EA9E02 /* __app.xcdatamodel */;
+			path = __app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A2E1F3021DED4ED400CF6629 /* Project object */;
 }
